@@ -45,3 +45,9 @@ db.employee.find({$or :[
 {"Age" : {$gt:"30"}},
 {"Gender" :"male"}
 ]})
+
+# must true two conditions
+db.employee.find({$or :[
+{"Age" : {$gt:"30"}},
+{"Gender" :"male"}
+]})
